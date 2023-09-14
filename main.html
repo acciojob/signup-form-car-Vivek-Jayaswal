@@ -9,43 +9,52 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form action="#" method="post">
-		<label for="name">Name </label>
-		<input type="text" name="Name" required id="name" placeholder="Name">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Name" required>
 		<br><br>
-		<label for="email">Email </label>
-		<input type="email" name="email" required id="email" placeholder="Email">
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" placeholder="Email" required>
 		<br><br>
-		<label>Gender </label> 
-		<input type="radio" required id="gender_m" name="gender">
+		
+		<label>Gender:</label> 
+		<input type="radio" id="gender_m" name="gender" required>
 		<label for="gender_m">Male</label> 
-		<input type="radio" name="gender" required id="gender_f">
+		<input type="radio" id="gender_f" name="gender" required>
 		<label for="gender_f">Female</label> 
 		<br><br>
-		<label for="cars">Car Brands</label>
-		<select name="Car" id="cars" >
+		
+		<label for="cars">Car Brands:</label>
+		<select name="cars" id="cars" required>
 			<option value="" disabled>--Please choose an option--</option>
-			<option value+""></option>
+			<option value=""></option>
 			<option value="">Audi</option>
 			<option value="">BMW</option>
 			<option value="">Mercedies</option>
 			<option value="">XUV</option>
 		</select>
-		<br><br><br>
-		<label for="age">Age </label>
-		<input type="number" name="Age" required id="age" placeholder="Age" >
 		<br><br>
-		<label for="dob">DOB </label>
-		<input type="date" name="date" required id="dob">
+		
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" placeholder="Age" required>
 		<br><br>
-		<label for="">Phone Number</label>
-		<input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" placeholder="xxx-xxx-xxxx">
+		
+		<label for="dob">DOB:</label>
+		<input type="date" id="dob" name="date" required>
 		<br><br>
-		<label for="password">Password</label>
-		<input type="Password" name="Password" required id="password" placeholder="Password">
+		
+		<label for="">Phone Number:</label>
+		<input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx">
 		<br><br>
-		<input type="Checkbox" name="TOC" required id="tos">
+		
+		<label for="password">Password:</label>
+		<input type="Password" id="password" name="Password" placeholder="Password" required>
+		<br><br>
+		
+		<input type="Checkbox" id="tos" name="tos" required>
 		<label for="tos">I agree to the TOS</label>
 		<br><br>
+		
 		<button type="submit">Sign Up</button>
 	</form>
     <script type="text/javascript" src="./script.js">
