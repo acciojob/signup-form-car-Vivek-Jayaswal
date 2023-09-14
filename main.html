@@ -10,41 +10,41 @@
 	<!-- the entire body must be written by student -->
 	<form action="#" method="post">
 		<label for="name">Name </label>
-		<input type="Text" name="Name" required id="name" placeholder="Name">
-		<br>
+		<input type="text" name="Name" required id="name" placeholder="Name">
+		<br><br>
 		<label for="email">Email </label>
-		<input type="Email" name="Email" required id="email" placeholder="Email">
-		<br>
+		<input type="email" name="email" required id="email" placeholder="Email">
+		<br><br>
 		<label>Gender </label> 
-		<input type="Radio" required id="gender_m" name="gender">
+		<input type="radio" required id="gender_m" name="gender">
 		<label for="gender_m">Male</label> 
-		<input type="Radio" name="gender" required id="gender_f">
+		<input type="radio" name="gender" required id="gender_f">
 		<label for="gender_f">Female</label> 
-		<br>
+		<br><br>
 		<label for="cars">Car Brands</label>
-		<select name="Car" id="cars">
-			<option>--Please choose an option--</option>
-			<option>Audi</option>
-			<option>BMW</option>
-			<option>Mercedies</option>
-			<option>XUV</option>
+		<select name="Car" id="cars" >
+			<option value="" disabled>--Please choose an option--</option>
+			<option value="">Audi</option>
+			<option value="">BMW</option>
+			<option value="">Mercedies</option>
+			<option value="">XUV</option>
 		</select>
-		<br>
+		<br><br><br>
 		<label for="age">Age </label>
-		<input type="Number" name="Age" required id="age" placeholder="Age" >
-		<br>
+		<input type="number" name="Age" required id="age" placeholder="Age" >
+		<br><br>
 		<label for="dob">DOB </label>
-		<input type="Date" name="DOB" required id="dob">
-		<br>
+		<input type="date" name="date" required id="dob">
+		<br><br>
 		<label for="">Phone Number</label>
-		<input type="Tel" name="Tel" id="tel" placeholder="xxx-xxx-xxxx">
-		<br>
+		<input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" placeholder="xxx-xxx-xxxx">
+		<br><br>
 		<label for="password">Password</label>
 		<input type="Password" name="Password" required id="password" placeholder="Password">
-		<br>
+		<br><br>
 		<input type="Checkbox" name="TOC" required id="tos">
 		<label for="tos">I agree to the TOS</label>
-		<br>
+		<br><br>
 		<input type="submit" name="Submit" value="submit">
 	</form>
     <script type="text/javascript" src="./script.js">
